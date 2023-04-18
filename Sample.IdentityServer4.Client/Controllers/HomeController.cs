@@ -17,6 +17,7 @@ namespace Sample.IdentityServer4.Client.Controllers
         public IActionResult Index() {
             return View();
         }
+       
 
         public IActionResult Privacy() {
             return View();

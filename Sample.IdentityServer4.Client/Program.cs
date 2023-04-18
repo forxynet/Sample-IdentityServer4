@@ -13,7 +13,7 @@ builder.Services.AddAuthentication(options =>
 {
     options.Authority = "https://localhost:44343";
     options.ClientId = "oidcMVCApp";
-    options.ClientSecret = "ProCodeGuide";
+    options.ClientSecret = "Sample.IdentityServer4";
 
     options.ResponseType = "code";
     options.UsePkce = true;

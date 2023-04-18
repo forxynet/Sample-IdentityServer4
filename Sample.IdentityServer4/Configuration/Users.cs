@@ -17,9 +17,9 @@ namespace Sample.IdentityServer4.Configuration
                 Password = "password",
                 Claims = new List<Claim>
                 {
-                    new Claim(JwtClaimTypes.Email, "support@procodeguide.com"),
+                    new Claim(JwtClaimTypes.Email, "support@Sample.IdentityServer4.com"),
                     new Claim(JwtClaimTypes.Role, "admin"),
-                    new Claim(JwtClaimTypes.WebSite, "https://procodeguide.com")
+                    new Claim(JwtClaimTypes.WebSite, "https://Sample.IdentityServer4.com")
                 }
             }
         };
