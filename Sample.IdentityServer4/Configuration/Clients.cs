@@ -25,6 +25,8 @@ namespace Sample.IdentityServer4.Configuration
 
                     AllowedGrantTypes = GrantTypes.Code,
                     RedirectUris = new List<string> {"https://localhost:44346/signin-oidc"},
+                    PostLogoutRedirectUris = { "http://localhost:44346/" },
+                    FrontChannelLogoutUri =    "http://localhost:44346/signout-oidc",
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
